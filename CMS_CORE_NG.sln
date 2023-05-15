@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS_CORE_NG", "CMS_CORE_NG\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingService", "LoggingService\LoggingService.csproj", "{56521FF7-1221-46E0-97D2-DBF508F0A3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{C0F59AF3-5712-4FAE-BAF4-0B707B1EF34B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "DataService\DataService.csproj", "{C0F59AF3-5712-4FAE-BAF4-0B707B1EF34B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelService", "ModelService\ModelService.csproj", "{34C24F6B-B6B5-4D26-8D2F-6A5BBAAC0FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelService", "ModelService\ModelService.csproj", "{34C24F6B-B6B5-4D26-8D2F-6A5BBAAC0FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalService", "FunctionalService\FunctionalService.csproj", "{C4E2A4B7-E8F2-4A48-ACA7-E8F1CC397031}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{34C24F6B-B6B5-4D26-8D2F-6A5BBAAC0FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C24F6B-B6B5-4D26-8D2F-6A5BBAAC0FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C24F6B-B6B5-4D26-8D2F-6A5BBAAC0FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E2A4B7-E8F2-4A48-ACA7-E8F1CC397031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E2A4B7-E8F2-4A48-ACA7-E8F1CC397031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E2A4B7-E8F2-4A48-ACA7-E8F1CC397031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E2A4B7-E8F2-4A48-ACA7-E8F1CC397031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FunctionalService\FunctionalService.csproj" />
     <ProjectReference Include="..\ModelService\ModelService.csproj" />
   </ItemGroup>
 

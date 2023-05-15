@@ -14,6 +14,7 @@ namespace DataService
         {
         }
 
+        //make sure that basic roles are creating while creating the db for the frist time
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
